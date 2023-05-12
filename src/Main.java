@@ -118,7 +118,7 @@ public class Main {
         int spanYear = 0;
         int yearS = year - lastYears;
         int yearE = year + yearL;
-        for ( int cometYear = yearS; cometYear <= yearE; cometYear++) {
+        for (int cometYear = yearS; cometYear <= yearE; cometYear++) {
             spanYear = spanYear + 1;
             if (cometYear % cometFlyby == 0) {
                 System.out.println(cometYear);
