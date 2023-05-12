@@ -8,7 +8,6 @@ public class Main {
         task6();
         task7();
         task8();
-        task9();
     }
 
     public static void task1() {
@@ -125,9 +124,5 @@ public class Main {
                 System.out.println(cometYear);
             }
         }
-    }
-
-    public static void task9() {
-        System.out.println("Задача 9");
     }
 }
